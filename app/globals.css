@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600;700;800;900&display=swap');
+
+:root {
+  --red:     #D32F2F;
+  --gold:    #FFD700;
+  --bg:      #111111;
+  --surface: #1A1A1A;
+  --text:    #F5F0E8;
+  --muted:   #6E6E6E;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body { background: var(--bg); color: var(--text); font-family: var(--font-heading), 'Kanit', sans-serif; }
+
+/* Reveal animations */
+.reveal { opacity: 0; transform: translateY(28px); transition: opacity 0.6s ease, transform 0.6s ease; }
+.reveal.visible { opacity: 1; transform: translateY(0); }
