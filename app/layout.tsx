@@ -4,6 +4,7 @@ import { Kanit } from 'next/font/google';
 import { getKorivaConfig, buildCssVars } from '@/lib/koriva-config';
 import './globals.css';
 
+import { KorivaLivePreview } from '@/components/KorivaLivePreview';
 const heading = Kanit({ subsets: ['latin'], weight: ['400', '500', '600', '700', '800', '900'], variable: '--font-heading' });
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -22,6 +23,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
     <html lang="en" style={vars as React.CSSProperties}>
       <body className={`${heading.variable} bg-mt-bg text-mt-text antialiased`} style={{ fontFamily: 'Kanit, sans-serif' }}>
         {children}
+        <KorivaLivePreview />
       </body>
     </html>
   );
