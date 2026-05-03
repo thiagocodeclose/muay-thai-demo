@@ -91,7 +91,7 @@ function Hero() {
         <div className="max-w-2xl">
           <div className="flex items-center gap-3 mb-6">
             <div className="h-0.5 w-10 bg-mt-gold" />
-            <span className="text-mt-gold font-heading font-bold text-sm uppercase tracking-[0.3em]">มวยไทย — Muay Thai · Miami, FL</span>
+            <span data-cg-el="hero_eyebrow" className="text-mt-gold font-heading font-bold text-sm uppercase tracking-[0.3em]">มวยไทย — Muay Thai · Miami, FL</span>
           </div>
 
           <h1 data-cg-el="hero_headline_1" className="font-heading font-black text-6xl sm:text-7xl lg:text-8xl text-white leading-none mb-4 uppercase">
@@ -100,13 +100,13 @@ function Hero() {
             LIMBS.
           </h1>
 
-          <p className="text-mt-muted text-lg mb-8 max-w-lg leading-relaxed">{studioInfo.subheadline}</p>
+          <p data-cg-el="hero_subtitle" className="text-mt-muted text-lg mb-8 max-w-lg leading-relaxed">{studioInfo.subheadline}</p>
 
           <div className="flex flex-wrap gap-3">
-            <a href="#contact" className="inline-flex items-center gap-2 bg-mt-red hover:bg-[#B71C1C] text-white font-heading font-bold text-sm uppercase tracking-widest px-8 py-4 transition-colors">
+            <a data-cg-el="hero_cta_primary" href="#contact" className="inline-flex items-center gap-2 bg-mt-red hover:bg-[#B71C1C] text-white font-heading font-bold text-sm uppercase tracking-widest px-8 py-4 transition-colors">
               Free Trial Class <ArrowRight size={15} />
             </a>
-            <a href="#8-limbs" className="inline-flex items-center gap-2 border-2 border-mt-gold/40 hover:border-mt-gold text-white font-heading font-bold text-sm uppercase tracking-widest px-8 py-4 transition-colors">
+            <a data-cg-el="hero_cta_secondary" href="#8-limbs" className="inline-flex items-center gap-2 border-2 border-mt-gold/40 hover:border-mt-gold text-white font-heading font-bold text-sm uppercase tracking-widest px-8 py-4 transition-colors">
               The 8 Limbs
             </a>
           </div>
