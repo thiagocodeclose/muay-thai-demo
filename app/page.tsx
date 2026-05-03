@@ -94,7 +94,7 @@ function Hero() {
             <span className="text-mt-gold font-heading font-bold text-sm uppercase tracking-[0.3em]">มวยไทย — Muay Thai · Miami, FL</span>
           </div>
 
-          <h1 className="font-heading font-black text-6xl sm:text-7xl lg:text-8xl text-white leading-none mb-4 uppercase">
+          <h1 data-cg-el="hero_headline_1" className="font-heading font-black text-6xl sm:text-7xl lg:text-8xl text-white leading-none mb-4 uppercase">
             THE ART<br />
             OF <span className="text-mt-red">EIGHT</span><br />
             LIMBS.
